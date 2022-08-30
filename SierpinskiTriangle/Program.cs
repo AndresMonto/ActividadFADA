@@ -28,18 +28,15 @@ namespace ActividadFADA
                 case 1:
 
                     return p1;
-                    break;
 
                 case 2:
 
                     return p2;
-                    break;
-
 
                 default:
 
                     return p3;
-                    break;
+
             }
         }
 
