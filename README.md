@@ -4,10 +4,10 @@
 
 <ol>
 
-#### <li>Visual Studio 2019 Preview</li>
+#### <li>Visual Studio 2017</li>
 
-#### <li>Net Core 5 (C#)</li>
+#### <li>Net Core 2.1 (C#)</li>
 
-#### <li>Microsoft .NET SDK 5.0.407 (x64)</li>
+#### <li>Microsoft .NET Core SDK 2.1.526 (x64)</li>
 
 </ol>
