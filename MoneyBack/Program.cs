@@ -7,7 +7,7 @@ namespace MoneyBack
     {
         static void Main(string[] args)
         {
-            List<int> coins = BinarySearch.Program.SortArray(new() { 1000, 50, 100, 200, 500, 1000, 50, 50 });
+            List<int> coins = BinarySearch.Program.SortArray(new List<int>() { 1000, 50, 100, 200, 500, 1000, 50, 50 });
             int returned = 750;
 
             int count = CountCoins(coins, returned);

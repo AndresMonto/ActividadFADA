@@ -7,7 +7,7 @@ namespace BinarySearch
     {
         static void Main(string[] args)
         {
-            foreach (var item in SortArray(new(){ 3, 4, 5, 7, 1, 10, 2, 15, 8 }))
+            foreach (var item in SortArray(new List<int>(){ 3, 4, 5, 7, 1, 10, 2, 15, 8 }))
             {
                 Console.Write(item + " - ");
             }

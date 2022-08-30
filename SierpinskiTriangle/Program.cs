@@ -5,11 +5,11 @@ namespace ActividadFADA
 {
     class Program
     {
-        private static readonly Random randon = new(Guid.NewGuid().GetHashCode());
+        private static readonly Random randon = new Random(Guid.NewGuid().GetHashCode());
 
-        private static Point p1 = new(Console.WindowWidth / 2, 1);
-        private static Point p2 = new(5, Console.WindowHeight - 1 );
-        private static Point p3 = new(Console.WindowWidth -5, Console.WindowHeight - 1);
+        private static Point p1 = new Point(Console.WindowWidth / 2, 1);
+        private static Point p2 = new Point(5, Console.WindowHeight - 1 );
+        private static Point p3 = new Point(Console.WindowWidth -5, Console.WindowHeight - 1);
 
         private const int iterations = 100000;
 
