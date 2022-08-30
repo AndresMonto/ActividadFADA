@@ -11,6 +11,7 @@ namespace BinarySearch
             {
                 Console.Write(item + " - ");
             }
+            Console.ReadLine();
             
         }
 
